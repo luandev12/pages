@@ -1,0 +1,250 @@
+body {
+    font-size: 20px !important;
+}
+a {
+    font-size: 20px !important;
+    color: white !important;
+}
+
+h2 {
+    font-size: 44px !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px !important ;
+    font-weight: 750 !important;
+}
+
+p,h6 {
+    font-size: 20px !important;
+}
+
+.container-fluid {
+    padding: 48px 0 !important;
+}
+
+/*--BANNER--*/
+
+.banner-wrapper {
+    color: white;
+    min-height: 865px ;
+}
+.navbar-collapse {
+    justify-content: right;
+}
+
+.banner-content-container {
+    padding-top: 14%;
+    margin-right: 53% !important;
+    margin-left: 9%;
+}
+
+.banner-btn {
+    background:none;
+    border: 1px solid #d29b7f;
+    color: #d29b7f;
+    font-weight: 900;
+    height: 4rem;
+    width: 13rem;
+}
+.banner-paragraph {
+    margin-bottom: 36px !important;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+    color: white;
+}
+
+.jumbotron-h2 {
+    margin: 0 20%;
+    
+}
+
+.jumbotron-p {
+    margin: 0 10%;
+    text-align: center
+}
+
+/*CATALOG*/
+.catalog-wrapper {
+    padding: 64px 0;
+    color: white;
+    background-color: #FFF5F1;
+}
+.ctl-detail-wrapper {
+    background-color: #D59C7F;
+    min-height: 528px;
+    max-height: 528px;
+}
+
+.catalog-img {
+    width: 15%;
+}
+
+.catalog-h3,.catalog-price,.catalog-product {
+    font-weight: 700 !important;
+}
+
+.catalog-product,.catalog-price-detail {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: 1px solid white;
+}
+.catalog-product{
+padding-left: 7% !important;
+}
+
+.catalog-sub-row {
+    margin: 0 36px !important;
+}
+
+.catalog-content {
+    padding: 12px 0;
+}
+
+.catalog-btn-wrapper {
+    margin-top: -4px !important;
+}
+.catalog-btn {
+    background-color: white !important;
+    border-radius: 0 !important;
+    color: #d29b7f !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    width: 60%;
+    height: 64px;
+
+}
+
+/*FEEDBACK*/
+.feedback {
+    background-color: #FFF5F1;
+}
+
+/*CONTACT*/
+.contact {
+    color: white;
+    background-color: #FFF5F1;
+    height: 1000px;
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: -25% 50%, 0 25%,0 25%, 100% 0;
+    background-size: 61%,41%,41%,67%;
+    padding-bottom: 0 !important;
+}
+
+.contact-h2 {
+    text-align: start !important;
+    margin-bottom: 4px !important;
+}
+
+.contact-input {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    border: 1px white solid;
+}
+
+input {
+    background-color: transparent;
+    border: none
+}
+
+.contact-input-message-row {
+    border: 1px solid white;
+    min-height: 180px;
+}
+
+.message-col2 {
+    padding: 12px !important;
+}
+
+.contact-input-message {
+    margin: 36px 12px;
+
+
+}
+
+.contact-col2 {
+    padding-left: 24px !important;
+}
+
+.contact-btn{
+    background-color: #d29b7f !important;
+    border-radius: 0 !important;
+    color:  white!important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    width: 30%;
+    height: 64px;
+}
+
+.contact-p {
+    margin-bottom: 0 !important;
+}
+
+
+/*CHECK OUT*/
+.checkout {
+    padding-top: 0 !important;
+    background-color: #FFF5F1;
+}
+
+/*LOCATION*/
+.location {
+    padding-bottom: 0!important;
+    background-color: #FFF5F1;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: 100% 48px,100% 48px,0% 0%;
+    height: 876px;
+    color: white;
+}
+
+.location-h2 {
+    text-align: left;
+    margin-bottom: 12px!important;
+}
+
+.location-h4 {
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.location-sub-row {
+    margin-bottom: 24px;
+}
+
+.col-3>span>p {
+    font-weight: 700;
+}
+
+.hour {
+    margin-top: 7% !important;
+}
+
+span>p {
+    margin-bottom: 40px !important;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: #d29b7f;
+    color: white;
+    padding: 64px 0 20px;
+}
+
+.footer-h6 {
+    font-size: 12px !important;
+    text-align: left;
+    font-weight: 700 !important;
+    padding-right: 15%;
+}
+
+.footer-col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

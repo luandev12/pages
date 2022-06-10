@@ -1,0 +1,356 @@
+body {
+    font-size: 20px !important;
+}
+
+h1{ 
+    font-size: 50px !important;
+    font-weight: 800 !important;
+}
+
+h2 {
+    font-size: 30px!important;
+    font-weight: 700 !important;
+}
+
+.content-h1 {
+    padding-right: 42%;
+}
+.content-wrapper {
+    margin: 120px 0;
+}
+.content-row .col-lg-6 {
+    padding-right: 37px !important;
+}
+.content-btn-1 {
+    text-decoration: none !important;
+    line-height: 64px;
+    text-align: center;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.ctl-detail-wrapper {
+    background-color: #e6957c;
+    margin-bottom: -64px;
+    min-height: 750px;
+    max-height: 750px
+}
+
+.catalog-detail.col2 {
+    margin-top: 64px;
+}
+
+.catalog-detail.col3 {
+    margin-top: 128px;
+}
+
+
+.catalog-detail {
+    color: white;
+}
+
+.catalog-img {
+    width: 100%;
+}
+
+.catalog-img img {
+    padding: 20px;
+
+}
+
+.catalog-h5-2{
+    font-weight: 400;
+    max-width: 80%;
+}
+
+.catalog-img {
+    margin-bottom: -30%;
+    margin-top: 16px;
+}
+
+.ctl-button {
+    width:60%;
+    height: 70px;
+    margin-bottom: -25%;
+}
+
+.ctl-padding {
+    height: 50px;
+}
+
+.contact-detail-wrapper {
+    padding: 0 64px 0 250px;
+}
+.infor-wrapper.col-6 {
+    background-color:#e6957c!important;
+    border-bottom: solid 1px white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: white;
+}
+
+span {
+ display: block;   
+ margin-bottom: 16px;
+}
+
+.col-2 span {
+    font-weight: 700;
+}
+
+li {
+    list-style-type: none;
+}
+
+.price-wrapper span {
+    padding-top: 16px;
+}
+
+.price-wrapper-item span {
+    width: 100%;
+    font-weight: 700 !important;
+    padding-left: 30%;
+}
+
+.business-hour {
+    margin: 64px 0 64px 64px;
+}
+
+.location-infor {
+    margin: 64px;
+}
+
+.footer-contact-container,.footer-icon-container,.footer-disclaimer-container {
+    margin-left: 64px;
+}
+/*---Media Query---*/
+@media (max-width: 1400px) {
+    .content-h1 {
+        padding-right: 32%;
+    }
+    .price-wrapper span{
+        font-size: 17px !important;
+    }
+
+    .ctl-detail-wrapper {
+        min-height: 700px;
+        max-height: 700px;
+    }
+
+    .contact-detail-wrapper {
+        padding: 0 48px 0 200px;
+    }
+
+    .location-infor>h1,.business-hour>h1 {
+        font-size: 41px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {font-size: 16px !important;}
+    h1{ font-size: 40px !important;}
+    p { margin: 0 !important}
+    .price-wrapper span{
+        font-size: 16px !important;
+        margin-left: 5% !important;
+    }
+    .price-wrapper-item span {
+        width: 100%;
+        font-weight: 700 !important;
+        padding-left: 10%;
+    }
+
+    .ctl-detail-wrapper {
+        min-height: 675px;
+        max-height: 675px;
+    }
+    
+    .ctl-button {
+        height: 50px;
+        margin-bottom: -20%;
+    }
+
+    .ctl-padding {
+        height: 20px !important;
+    }
+
+    .ctl-detail-wrapper h5{
+        font-size: 16px;
+    }
+
+    .location h1 {
+        font-size: 32px !important;
+    }
+
+    .location h3 {
+        font-size: 24px;
+    }
+
+    .business-hour {
+        margin: 32px 0 32px 32px;
+    }
+
+    .footer-contact,.footer-icon {
+        margin-top: 20px !important;
+    }
+
+    .footer-icon {
+        line-height: 95px;
+    }
+
+    .footer-contact-container,.footer-icon-container {
+        margin-left: 64px;
+    }
+}
+
+@media (max-width: 990px) {
+    .content-h1 {
+        text-align: center;
+        padding-right: 0;
+    }
+    .content-2-h1 {
+        margin-top: 16px;
+    }
+    .content-btn-1 {
+        margin-top: 16px;
+    }
+    .content-row .col-lg-6 {
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .catalog-detail.col2{
+        margin-top: 0;
+    }
+
+    .catalog-detail.col3 {
+        margin-top: 100px;
+        width: 50%;
+    }
+
+    .price-wrapper span {
+        padding-top: 4px;
+    }
+
+    .catalog-h5-2 {
+        margin-top:0;
+        font-weight: 400;
+        max-width: 80%;
+    }
+
+    .catalog-img {
+        margin-top: 0;
+    }
+
+    .ctl-padding {
+        height: 10px !important;
+    }
+
+    .catalog-row.row {
+        justify-content: center;
+    }
+
+    .contact-detail-wrapper {
+        padding: 0;
+    }
+
+    .contact-detail-wrapper h1,.contact-detail-wrapper p{
+        text-align: center;
+    }
+
+    .infor-container {
+        align-items: center;
+    }
+
+    .infor-wrapper {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .infor-row {
+        justify-content: center;
+    }
+
+    .location p {
+        font-size: 13px;
+    }
+
+    .location-infor {
+        margin: 32px;
+    }
+
+    .location h4 {
+        font-size: 20px !important;
+    }
+
+    h4.mb-5 {
+        margin-bottom: 20px !important;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px !important;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    p{ font-size: 14px; text-align: center;}
+
+    .content-wrapper {
+        margin: 40px 0 40px 0;
+    }
+    .content-row .col-lg-6 {
+        padding: 0 !important
+    }
+
+    .catalog-detail.col-sm-12, .catalog-detail.col-md-12 {
+        width: 50%;
+    }
+    .promotion-h-p {margin-bottom: 12px !important;}
+    .contact.row {
+        justify-content: center;
+    }
+    
+    .contact-detail-wrapper {
+        padding:0;
+        margin-bottom: 16px;
+    }
+
+    .infor-row.row {
+        justify-content: center;
+    }
+    .infor-container {
+        align-items: center;
+    }
+    .infor-wrapper {
+        width: 100%;
+    }
+    .date-col.col-sm-6 {
+        padding-left: 30%;
+    }
+    .location-infor {
+        text-align: center;
+    }
+
+    .footer-contact,.footer-icon {
+        text-align: center;
+    }
+
+    .footer-icon {
+        line-height: 80px ;
+    }
+
+    .footer-contact-container,.footer-icon-container,.footer-disclaimer-container {
+        margin-left: 0;
+    }
+
+    .footer-disclaimer-container h3 {
+        text-align: center !important;
+    }
+}

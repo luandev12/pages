@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./assets/css/style-3.css">
+  <link rel="stylesheet" href="./bootstrap5.1.3dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<!--BANNER-->
+  <div class="banner-wrapper container-fluid" style="background-image: url(./assets/img/banner-bg-1.png),url(./assets/img/banner-bg-2.png),url(./assets/img/banner-bg-3.png);background-position: right,-50% 50%,left;background-repeat: no-repeat;background-size: contain,80%,cover;">
+    <nav class="navbar navbar-expand-lg navbar-light stick-top">
+    <div class="nav-wrapper container justify-content-between">
+      <a href="" class="logo"><img src="./assets/img/p2-banner-logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav d-flex align-items-center" style="font-size: 1.6rem;">
+          <li class="nav-item">
+            <a href="" class="nav-link">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">What people say</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Location</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+    <div class="banner-content-container">
+      <h1 class="banner-heading mb-4">One Salon Five Location</h1>
+      <p class="banner-paragraph">Award winning service and style is just the icing on the cake when you visit any of our five locations. With our talented staff, wonderfully appointed environments and a passion for amazing service, our wish is for your visit to be a memorable one.<p>
+      <p class="banner-paragraph">With an incredible focus on advanced education and innovation, our team are some of the most educated and creative hairdressers you will find. We pour over every little detail to make sure that you have a fabulous experience.</p>
+      <div class="banner-btn-wrapper mt-4">
+        <button type="button" class="banner-btn">Contact Us</button>
+      </div>
+    </div>
+  </div>
+  <!--JUMBOTRON-->
+  <div class="jumbotron jumbotron-fluid" style="padding:7% 0 5% 0; background-image:url(./assets/img/jumbotron-bg-1.png),url(./assets/img/jumbotron-bg-2.png);background-repeat: no-repeat,repeat;background-size: contain;background-position: center;">
+    <h2 class="jumbotron-h2 text-center">Look & Feel Your Best with Our Thoughtful 
+              Service & Expert Technique</h2>
+    <p class="jumbotron-p text-center;">We believe that your salon visit should be an extraordinary experience. Our staff takes the time to thoroughly talk about your expectations, while giving their professional suggestions and expertise. Then enjoy a spa-like shampoo experience in our wonderfully appointed environments. Finishing blowouts are never an extra charge. </p>
+  </div>
+  <!--CATALOG-->
+<div class="catalog-wrapper container-fluid">
+<div class="catalog-container container">
+  <div class="catalog-row row">
+    <div class="catalog-col col-sm-6 col-md-4">
+      <div class="ctl-detail-wrapper">
+        <img class="catalog-img pt-5 mx-auto d-block" src="./assets/img/ctl-img-1.png" alt="">
+        <h3 class="catalog-h3 text-center mt-4">Women's Haircut</h3>
+        <h6 class="catalog-price text-center">$45 - $135</h1>
+        <div class="catalog-sub-row row row-cols-2">
+          <div class="catalog-product col">Master Level</div>
+          <div class="catalog-price-detail col">75 - $135</div>
+          <div class="catalog-product col">Senior Level</div>
+          <div class="catalog-price-detail col">$65 - $70</div>
+          <div class="catalog-product col">Studio Level</div>
+          <div class="catalog-price-detail col">$58 - $60</div>
+          <div class="catalog-product col" style="border-bottom: none;">Protegé Level</div>
+          <div class="catalog-price-detail col" style="border-bottom:none">$45</div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <p class="catalog-content text-center">Finishing Blowouts Are Always Included</p>
+        </div>
+
+        <div class="catalog-btn-wrapper d-flex justify-content-center">
+          <button class="catalog-btn btn" type="button" class="btn btn-success">Book Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="catalog-col col-sm-6 col-md-4">
+      <div class="ctl-detail-wrapper">
+        <img class="catalog-img pt-5 mx-auto d-block" src="./assets/img/ctl-img-2.png" alt="">
+        <h3 class="catalog-h3 text-center mt-4">Full Highlight</h3>
+        <h6 class="catalog-price text-center">$45 - $135</h1>
+        <div class="catalog-sub-row row row-cols-2">
+          <div class="catalog-product col" style="">Master Level</div>
+          <div class="catalog-price-detail col">75 - $135</div>
+          <div class="catalog-product col">Senior Level</div>
+          <div class="catalog-price-detail col">$65 - $70</div>
+          <div class="catalog-product col">Studio Level</div>
+          <div class="catalog-price-detail col">$58 - $60</div>
+          <div class="catalog-product col" style="border-bottom: none;">Protegé Level</div>
+          <div class="catalog-price-detail col" style="border-bottom:none">$45</div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <p class="catalog-content text-center">Finishing Blowouts Are Always Included</p>
+        </div>
+
+        <div class="catalog-btn-wrapper d-flex justify-content-center">
+          <button class="catalog-btn btn" type="button" class="btn btn-success">Book Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="catalog-col col-sm-6 col-md-4">
+      <div class="ctl-detail-wrapper">
+        <img class="catalog-img pt-5 mx-auto d-block" src="./assets/img/ctl-img-3.png" alt="">
+        <h3 class="catalog-h3 text-center mt-4">All Over Color</h3>
+        <h6 class="catalog-price text-center">$45 - $135</h1>
+        <div class="catalog-sub-row row row-cols-2">
+          <div class="col catalog-product">Master Level</div>
+          <div class="col catalog-price-detail">75 - $135</div>
+          <div class="col catalog-product">Senior Level</div>
+          <div class="col catalog-price-detail">$65 - $70</div>
+          <div class="col catalog-product">Studio Level</div>
+          <div class="col catalog-price-detail">$58 - $60</div>
+          <div class="col catalog-product" style="border-bottom: none;">Protegé Level</div>
+          <div class="col catalog-price-detail" style="border-bottom:none">$45</div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <p class="catalog-content text-center">Finishing Blowouts Are Always Included</p>
+        </div>
+
+        <div class="catalog-btn-wrapper d-flex justify-content-center">
+          <button class="catalog-btn btn" type="button" class="btn btn-success">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <!--FEEDBACK-->
+  <div class="feedback container-fluid">
+    <div class="feedback-container container">
+      <h2 class="feedback-h2">What people say</h1>
+      <p class="feedback-p text-center">Read the experience from our guests</p>
+      <div class="feedback-row row">
+        <div class="col-sm-6 col-lg-4">
+            <div class="feedback-wrapper">
+                <img class="feedback-img img-fluid mt-3 mb-4" src="./assets/img/feedback-img-1.png" alt="">
+                <h4 class="feedback-heading4">Marlena H.</h5>
+                <h6>Local Resident | Dec 2021</h6>
+                <p class="feedback-p">The membership - I HIGHLY RECOMMEND. You receive a service each month, and discounts on other services and retail products. </p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <div class="feedback-wrapper">
+                <img class="feedback-img img-fluid mt-3 mb-4" src="./assets/img/feedback-img-2.png" alt="">
+                <h4 class="feedback-heading4">Marlena H.</h5>
+                <h6>Local Resident | Dec 2021</h6>
+                <p class="feedback-p">Nice relaxing atmosphere to the Spa, wonderful customer service and I received an amazing massage! It's my new Spa! </p>
+          
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <div class="feedback-wrapper">
+                <img class="feedback-img img-fluid mt-3 mb-4" src="./assets/img/feedback-img-3.png" alt="">
+                <h4 class="feedback-heading4">Marlena H.</h5>
+                <h6>Local Resident | Dec 2021</h6>
+                <p class="feedback-p">I was coming in from out of town and wanted a last minute treat. Recoop was very accommodating in scheduling the services I wanted the morning of the appointment. The spa was peaceful and everyone was very friendly</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  <!--PROMOTIONS-->
+  <div class="feedback container-fluid">
+    <div class="feedback-container container">
+      <h2 class="feedback-h2">Promotions</h1>
+      <p class="feedback-p text-center">Don’t wait. The time will never be just right</p>
+      <div class="feedback-row row">
+        <div class="col-sm-6 col-lg-4">
+            <div class="feedback-wrapper">
+                <img class="feedback-img img-fluid mt-3 mb-4" src="./assets/img/prm-im-1.png" alt="">
+                <h5 class="feedback-heading5">Experience the woodhouse hydrafacial</h5>
+                <p class="promotion-p">Vortex technology addresses all skins need<br>
+                  - Fine lines, Wrinkles, Elasticity & firmness, Enlarged pores</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <div class="feedback-wrapper">
+                <img class="feedback-img img-fluid mt-3 mb-4" src="./assets/img/prm-im-2.png" alt="">
+                <h5 class="feedback-heading5">Experience the woodhouse hydrafacial</h5>
+                <p class="promotion-p">Repetiton can dull the senses, by indulging in the unique, customized treatments with every visit, It's an experience you'll find as surprising as you will soothing</p>
+          
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <div class="feedback-wrapper">
+                <img class="feedback-img img-fluid mt-3 mb-4" src="./assets/img/prm-im-3.png" alt="">
+                <h5 class="feedback-heading5">Experience the woodhouse hydrafacial</h5>
+                <p class="promotion-p">You can certainly can make it a day fo yourself, but perhaps you have a loved one or friend who may be seeking life's moods and moments to acheive true renewel, bring them along</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  <!--CONTACT-->
+  <div class="contact container-fluid d-flex align-items-center" style="background-image:url(./assets/img/ct-bg-1.png),url(./assets/img/ct-bg.png),url(./assets/img/ct-bg-2.png),url(./assets/img/ct-bg-3.png);">
+    <div class="contact-container container">
+      <div class="contact-row row">
+        <div class="contact-content col-sm-12 col-md-5 d-flex flex-column justify-content-end">
+          <h2 class="contact-h2">Contact us</h2>
+          <p class="contact-p">Feel free to send us an email and we'll do our best to respond within 24 business hours. If you do not hear from us within a reasonable amount of time, please pick up the phone and call us! 630.123.4567
+          </p>
+        </div>
+        <div class="contact-form col-sm-12 col-md-7">
+          <div class="row">
+            <div class="contact-input-col col-6">
+              <div class="contact-input">
+                <div class="row">
+                  <div class="contact-col2 col-2">Email</div>
+                  <div class="col-10">
+                    <input type="text">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-input-col col-6">
+              <div class="contact-input">
+              <div class="row">
+                <div class="contact-col2 col-2">Email</div>
+                <div class="col-10">
+                  <input type="text">
+                </div>
+              
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-input-message">
+            <div class="contact-input-message-row row">
+              <div class="message-col2 col-2">Message</div>
+              <div class="col-10">
+                <input type="text">
+              </div>
+            </div>
+          </div>
+          <div class="btn-wrapper">
+            <button type="button" class="contact-btn btn">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <!--CHECKOUT-->
+  <div class="checkout container-fluid">
+    <div class="checkout-container container">
+      <h2 class="checkout-h2">Check out our work</h1>
+      <p class="checkout-p">At our Salon we have a passion for hair and we’re committed to creating a special salon experience for every client. We will help guide you to the greatest look for you – GUARANTEED.</p>
+      <div class="checkout-row row">
+        <div class="checkout-col col-sm-6 col-md-4">
+          <img src="./assets/img/ck-img-1.png" alt="" class="checkout-img img-fluid">
+        </div>
+    
+        <div class="checkout-col col-sm-6 col-md-4">
+          <img src="./assets/img/ck-img-2.png" alt="" class="checkout-img img-fluid">
+        </div>
+    
+        <div class="checkout-col col-sm-6 col-md-4">
+          <img src="./assets/img/ck-img-3.png" alt="" class="checkout-img img-fluid">
+        </div>
+    
+      </div>
+    </div>
+    </div>
+  <!--LOCATION-->
+    <div class="location container-fluid" style="background-image: url(./assets/img/lct-bg.png),url(./assets/img/lct-bg1.png),url(./assets/img/lct-bg-2.png);">
+      <div class="location-container container">
+        <div class="location-row row">
+          <div class="location-col address col-9">
+            <h2 class="location-h2">Our location</h2>
+            <h4 class="location-h4">Visit Any of Our Five Salon Locations</h4>
+            <div class="location-sub-row row">
+              <div class="location-sub-col col-6">
+                <h4 style="font-weight: 700;">DALLAS</h4>
+                <p>7949 Walnut Hill Lane Dallas, TX 75230</p>
+              </div>
+              <div class="location-sub-col col-6">
+                <h4 style="font-weight: 700;">DALLAS</h4>
+                <p>7949 Walnut Hill Lane Dallas, TX 75230</p>
+              </div>
+            </div>
+            <div class="location-sub-row row">
+              <div class="location-sub-col col-6">
+                <h4 style="font-weight: 700;">DALLAS</h4>
+                <p>7949 Walnut Hill Lane Dallas, TX 75230</p>
+              </div>
+              <div class="location-sub-col col-6">
+                <h4 style="font-weight: 700;">DALLAS</h4>
+                <p>7949 Walnut Hill Lane Dallas, TX 75230</p>
+              </div>
+            </div>
+            <div class="location-sub-row row">
+              <div class="location-sub-col col6">
+                <h4 style="font-weight: 700">HV/FLOWER MOUND</h4>
+                <p>7949 Walnut Hill Lane Dallas, TX 75230</p>
+              </div>
+            </div>
+          </div>
+          <div class="location-col hour col-3">
+            <h2 class="location-h2">Business hours</h2>
+            <h4 class="location-h4">We are open 7 days a week</h4>
+            <div class="location-sub-row row">
+              <div class="col-3">
+                <span>
+                  <p>MON</p>
+                </span><span>
+                  <p>TUE</p>
+                </span><span>
+                  <p>WED</p>
+                </span><span>
+                  <p>THU</p>
+                </span><span>
+                  <p>FRI</p>
+                </span><span>
+                  <p>SAT</p>
+                </span><span>
+                  <p>SUN</p>
+                </span>
+              </div>
+              <div class="col-9">
+                <span>
+                  <p>09:00 am - 07:00 pm</p>
+                </span><span>
+                  <p>09:00 am - 07:00 pm</p>
+                </span><span>
+                  <p>09:00 am - 07:00 pm</p>
+                </span><span>
+                  <p>09:00 am - 07:00 pm</p>
+                </span><span>
+                  <p>09:00 am - 07:00 pm</p>
+                </span><span>
+                  <p>09:00 am - 05:00 pm</p>
+                </span><span>
+                  <p>10:00 am - 05:00 pm</p>
+                </span>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--FOOTER-->
+  <div class="footer container-fluid">
+    <div class="footer-container container">
+      <div class="footer-row row">
+        <div class="footer-col7 col-7">
+          <h3 class="footer-h3">Disclaimer</h3>
+          <h6 class="footer-h6">All the information on this website www.salon.com is published in good faith and for general information purpose only. We do not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website is strictly at your own risk. We will not be liable for any losses and/or damages in connection with the use of our website. If you require any more information or have any questions about our site’s disclaimer, please feel free to Contact us
+          </h6>
+        </div>
+        <div class="footer-col3 col-3">
+          <h3 class="footer-h3">Contact Infor</h3>
+          <p>90 Paul Street, London ,EC2A 4UX, UK
+            +263 77 149 0081</p>
+        </div>
+        <div class="footer-col2 col-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="116.998" height="30.738" viewBox="0 0 116.998 30.738">
+            <g id="Group_5970" data-name="Group 5970" transform="translate(-1637.502 -241)">
+            <path id="Icon_awesome-twitter" data-name="Icon awesome-twitter" d="M32.3,10.668c.023.32.023.64.023.959,0,9.754-7.424,20.992-20.992,20.992A20.85,20.85,0,0,1,0,29.307a15.263,15.263,0,0,0,1.782.091,14.776,14.776,0,0,0,9.16-3.152,7.391,7.391,0,0,1-6.9-5.117,9.3,9.3,0,0,0,1.393.114,7.8,7.8,0,0,0,1.942-.251,7.379,7.379,0,0,1-5.916-7.241V13.66A7.431,7.431,0,0,0,4.8,14.6,7.389,7.389,0,0,1,2.513,4.728a20.972,20.972,0,0,0,15.213,7.721,8.329,8.329,0,0,1-.183-1.69A7.385,7.385,0,0,1,30.312,5.711a14.526,14.526,0,0,0,4.683-1.782,7.358,7.358,0,0,1-3.244,4.066A14.791,14.791,0,0,0,36,6.853a15.86,15.86,0,0,1-3.7,3.815Z" transform="translate(1637.502 237.619)" fill="#fff"/>
+            <g id="Icon_feather-instagram" data-name="Icon feather-instagram" transform="translate(1687.283 239.758)">
+              <path id="Path_74156" data-name="Path 74156" d="M9.87,3H23.61a6.87,6.87,0,0,1,6.87,6.87V23.61a6.87,6.87,0,0,1-6.87,6.87H9.87A6.87,6.87,0,0,1,3,23.61V9.87A6.87,6.87,0,0,1,9.87,3Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+              <path id="Path_74157" data-name="Path 74157" d="M23,16.625a5.5,5.5,0,1,1-4.63-4.63A5.5,5.5,0,0,1,23,16.625Z" transform="translate(-0.761 -0.75)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+              <path id="Path_74158" data-name="Path 74158" d="M26.25,9.75h0" transform="translate(-1.953 -0.567)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            </g>
+            <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M16.243,16.447l.812-5.291H11.978V7.721a2.646,2.646,0,0,1,2.983-2.859h2.308V.357A28.148,28.148,0,0,0,13.172,0C8.99,0,6.257,2.534,6.257,7.122v4.033H1.609v5.291H6.257V29.238h5.72V16.447Z" transform="translate(1737.231 241)" fill="#fff"/>
+            </g>
+          </svg>
+        </div>
+  
+      </div>
+      <p class="text-center mt-4">© Copyright Company Name 2021</p>
+    </div>
+  </div>
+</body>
